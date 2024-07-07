@@ -20,6 +20,9 @@ body {
     border-radius: 15px;
     box-shadow: 5px 20px 50px #000;
 }
+.sign_in_p{
+    color: white;
+}
 
 
 #chk {
