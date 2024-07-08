@@ -97,6 +97,8 @@ button:hover {
 .login label {
     color: #8F00FF;
     transform: scale(.6);
+    font-weight: bolder;
+    font-size: 60px;
 
 }
 
