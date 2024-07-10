@@ -9,7 +9,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #573b8a;
     background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
 }
 
@@ -20,7 +19,8 @@ body {
     border-radius: 15px;
     box-shadow: 5px 20px 50px #000;
 }
-.sign_in_p{
+
+.sign_in_p {
     color: white;
 }
 
@@ -49,7 +49,7 @@ label {
 input {
     width: 60%;
     height: 30px;
-    background: #8F00FF;
+    background: #8f00ff;
     justify-content: center;
     display: flex;
     margin: 20px auto;
@@ -123,17 +123,20 @@ a {
     transform: scale(.6);
 
 }
-svg{
+
+svg {
     width: 50px;
     height: 50px;
 }
-.svg_contaner{
+
+.svg_contaner {
     display: flex;
     justify-content: space-around;
     align-items: center;
 
 }
-p{
+
+p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,6 +144,7 @@ p{
     color: #8F00FF;
 
 }
-.sign_up{
+
+.sign_up {
     margin: 20px;
 }
