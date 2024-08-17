@@ -1,150 +1,160 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+:root{
+  /* dark */
+  --text: #e7ecfd;
+--background: #010613;
+--primary: #a1b0d9;
+--secondary: #4a098b;
+--accent: #790cac;
+
+/* light  */
+--text: #020718;
+--background: #ecf1fe;
+--primary: #26355e;
+--secondary: #b574f6;
+--accent: #c053f3;
+}
+
+
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
 }
 
 .main {
-    width: 350px;
-    height: 500px;
-    overflow: hidden;
-    border-radius: 15px;
-    box-shadow: 5px 20px 50px #000;
+  width: 350px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 5px 20px 50px #000;
 }
 
 .sign_in_p {
-    color: white;
+  color: white;
 }
 
-
 #chk {
-    display: none;
+  display: none;
 }
 
 .sign-in-contaner {
-    position: relative;
-    width: 100%;
-    height: 100%;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 label {
-    color: #fff;
-    font-size: 3.3em;
-    justify-content: center;
-    display: flex;
-    margin: 80px;
-    cursor: pointer;
-    transition: .5s ease-in-out;
-
+  color: #fff;
+  font-size: 3.3em;
+  justify-content: center;
+  display: flex;
+  margin: 80px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
 }
 
 input {
-    width: 60%;
-    height: 30px;
-    background: #8f00ff;
-    justify-content: center;
-    display: flex;
-    margin: 20px auto;
-    border: none;
-    outline: none;
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: -10px;
+  width: 60%;
+  height: 30px;
+  background: #8f00ff;
+  color: white;
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: -10px;
 }
 
 input::placeholder {
-    color: white;
+  color: white;
 }
 
 button {
-    width: 28%;
-    height: 30px;
-    margin: 10px auto;
-    justify-content: center;
-    display: block;
-    color: #fff;
-    background: #8F00FF;
-    font-size: 15px;
-    font-weight: bold;
-    margin-top: 20px;
-    outline: none;
-    border: none;
-    border-radius: 15px;
-    transition: .2 ease-in;
-    cursor: pointer;
+  width: 28%;
+  height: 30px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: #fff;
+  background: #8f00ff;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  transition: 0.2 ease-in;
+  cursor: pointer;
 }
 
 button:hover {
-    background: #6d44b8;
+  background: #6d44b8;
 }
 
 .login {
-    height: 460px;
-    background-color: #eee;
-    border-radius: 60%/10%;
-    transform: translateY(-180px);
-    transition: .8s ease-in-out;
+  height: 460px;
+  background-color: #eee;
+  border-radius: 60%/10%;
+  transform: translateY(-180px);
+  transition: 0.8s ease-in-out;
 }
 
 .login label {
-    color: #8F00FF;
-    transform: scale(.6);
-    font-weight: bolder;
-    font-size: 60px;
-
+  color: #8f00ff;
+  transform: scale(0.6);
+  font-weight: bolder;
+  font-size: 60px;
 }
 
 a {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 70px;
-    margin-top: -20px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 70px;
+  margin-top: -20px;
 }
 
-#chk:checked~.login {
-    transform: translateY(-525px);
-
+#chk:checked ~ .login {
+  transform: translateY(-525px);
 }
 
-#chk:checked~.login label {
-    transform: scale(1);
-
+#chk:checked ~ .login label {
+  transform: scale(1);
 }
 
-#chk:checked~.sign-in-contaner label {
-    transform: scale(.6);
-
+#chk:checked ~ .sign-in-contaner label {
+  transform: scale(0.6);
 }
 
 svg {
-    width: 50px;
-    height: 50px;
+  width: 40px;
+  height: 50px;
 }
 
 .svg_contaner {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-    color: #8F00FF;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  color: #8f00ff;
 }
 
 .sign_up {
-    margin: 20px;
+  margin: 20px;
 }
