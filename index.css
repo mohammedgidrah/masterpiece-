@@ -200,7 +200,6 @@ header {
 .category_name {
   color: var(--text-dark);
   font-size: 30px;
-  animation: fadeInRight 2.5s ease-out forwards;
 }
 .category_img {
   border-radius: 50%;
@@ -245,6 +244,64 @@ header {
 .category_link:hover {
   transform: scale(1.2);
 }
+
+.text-section {
+  /* background-color: #000; */
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px;
+}
+
+.text-section h2 {
+  color: var(--toggle-dark); /* Yellow color for the subheading */
+  font-size: 2.875rem;
+  margin-bottom: 10px;
+}
+
+.text-section h1 {
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.image-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.item {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.item p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: var(--text-dark);
+}
+
+.item h3 {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+  color: var(--text-dark);
+}
+
+
 @media (max-width: 781px) {
   .hero_section p {
     font-size: 15px;
@@ -275,6 +332,20 @@ header {
   }
   .hero_section h1 {
     font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .text-section h2 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .text-section h1 {
+    font-size: 17px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -323,7 +394,6 @@ header {
     padding: 60px 20px;
     backdrop-filter: blur(10px);
     transition: left 0.5s ease-in-out;
-    /* z-index: 100000; */
   }
 
   .links.active {
@@ -363,7 +433,17 @@ header {
     align-items: center;
     width: 250px;
   }
+  .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+  }
   .category_img {
+    width: 150px;
+    height: 150px;
+  }
+  .item img {
     width: 150px;
     height: 150px;
   }
